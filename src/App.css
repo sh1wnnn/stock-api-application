@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #13182c;
+  color:White;
+}
+
+.Header {
+  height: 1vh;
+}
+
+.StatusRow {
+  height: 33vh;
+}
+
+.HolidayRow {
+  height: 33vh;
+  background-color:#5085ee;
+}
+
+.TickerRow {
+  height: 33vh;
+  background-color: white;
+  color: black;
+}
+
+.HeaderText {
+  font-weight: bold;
+  font-family: Helvetica;
+}
+
+.StatusText {
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 60px;
+  word-spacing: 100vw;
+}
+
+.HolidayText {
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 60px;
+  word-spacing: 100vw;
+}
+
+.TickerText {
+  font-weight: bold;
+  font-family: Helvetica;
+  text-align: left;
+  font-size: 60px;
+  word-spacing: 100vw;
+}
+
+.LeftColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
